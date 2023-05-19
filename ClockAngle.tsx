@@ -9,7 +9,7 @@ function getClockAngle(hh_mm: string): number {
     return Math.min(angleDiff, 360 - angleDiff);
   }
   
-  // Example usage
-  console.log(getClockAngle("09:00")); // Output: 90
-  console.log(getClockAngle("17:30")); // Output: 15
+
+  console.log(getClockAngle("09:00"));
+  console.log(getClockAngle("17:30")); 
   
