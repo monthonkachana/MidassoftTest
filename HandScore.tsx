@@ -14,7 +14,7 @@ function getHandScore(input: string): number {
     const suit = card.charAt(0); 
     const rank = card.slice(1); // แยกrank (หลัง suit )
 
-   
+  //rank
     if (rank === "A") {
       rankScore = 35; // A-A-A is  35 
     } else if (isNaN(Number(rank))) {
